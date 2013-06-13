@@ -47,12 +47,3 @@ Package.register_extension(
     }
   }
 );
-
-// Register lessimport files with the dependency watcher, without actually
-// processing them.
-Package.register_extension("lessimport", function () {});
-
-Package.on_test(function (api) {
-  api.use('test-helpers');
-  api.add_files(['less_tests.less', 'less_tests.js'], 'client');
-});
