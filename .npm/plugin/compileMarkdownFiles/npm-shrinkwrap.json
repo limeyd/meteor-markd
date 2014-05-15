@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "marked": {
+      "version": "0.2.9"
+    }
+  }
+}
